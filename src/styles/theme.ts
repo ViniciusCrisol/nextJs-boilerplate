@@ -1,9 +1,9 @@
 const theme = {
   colors: {
-    text: '#121214',
-    primary: 'lightcoral',
-    background: '#1f1f1f1',
-  },
-};
+    text: 'darkgray',
+    background: 'white',
+    primary: 'lightseagreen'
+  }
+}
 
-export default theme;
+export default theme

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
@@ -10,13 +10,13 @@ export const Container = styled.div`
   justify-content: center;
 
   h1 {
-    font-size: 54px;
+    margin-bottom: 20px;
+    font-size: 40px;
     color: ${({ theme }) => theme.colors.primary};
-    margin: 40px 0;
   }
 
   p {
     font-size: 24px;
     margin-top: 8px;
   }
-`;
+`
