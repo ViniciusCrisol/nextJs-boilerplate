@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import { Container } from '../styles/pages/Home'
+import Head from 'next/head';
+import { Container } from '../styles/pages/Home';
 
 const Home: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
         {'>'} Declarar components como {"const's"} do tipo React.FC
       </p>
     </Container>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
